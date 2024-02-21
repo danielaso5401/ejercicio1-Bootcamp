@@ -1,0 +1,45 @@
+
+.headerPersona{
+  background-color: cadetblue;
+  color: #ffffff;
+}
+.bodyPersona{
+  background-color: #f9f9f9;
+  max-height: 400px; /* Altura máxima del div */
+  overflow-y: auto; /* Habilitar el desplazamiento vertical si el contenido excede la altura */
+}
+.albumPersonas {
+  width: 40%;
+}
+.enunciadoSecundario{
+  font-weight: bold;
+}
+.persona-image {
+  width: 100%; /* La imagen ocupa todo el ancho de su contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+
+.persona-details {
+  padding: 0 20px; /* Espaciado interior para los detalles */
+}
+
+.marco {
+  border: 1px solid #ccc; /* Borde sólido con un tono de gris */
+  padding: 20px; /* Espaciado interno de 20px */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 20px; /* Margen externo de 20px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  background-color: #f9f9f9; /* Color de fondo */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .persona-details {
+    padding-top: 20px; /* Espaciado superior en pantallas pequeñas */
+  }
+}
